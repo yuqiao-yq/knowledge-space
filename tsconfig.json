@@ -10,7 +10,9 @@
       "@@/*": [".dumi/tmp/*"],
       "yarn": ["src"],
       "yarn/*": ["src/*", "*"]
-    }
+    },
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true
   },
   "include": [".dumirc.ts", "src/**/*"]
 }
